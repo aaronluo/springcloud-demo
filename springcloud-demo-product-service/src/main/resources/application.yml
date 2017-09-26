@@ -1,0 +1,11 @@
+server:
+ port: 8081
+ 
+spring:
+ application:
+  name: PRODUCT-SERVICE
+  
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://172.18.0.2:8081/eureka

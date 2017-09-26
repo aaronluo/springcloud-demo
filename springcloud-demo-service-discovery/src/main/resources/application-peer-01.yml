@@ -1,0 +1,14 @@
+server:
+ port: 8081
+ 
+spring:
+ application:
+  name: EUREKA-SERVER
+  
+eureka:
+ instance:
+  preferIpAddress: true
+  hostname: 172.18.0.2
+ client:
+  serviceUrl:
+   defaultZone: http://172.18.0.3:8081/eureka
